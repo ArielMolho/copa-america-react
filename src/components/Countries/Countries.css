@@ -1,0 +1,31 @@
+.country-button{
+    width: 7rem;
+    height: 7rem;
+    transition: transform 0.9s ease-out;
+    background-color: #e7f1ff;
+    border: none;
+    padding: 1rem;
+}
+
+.country-button:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .card{
+        max-width: 100%;
+        margin: 1rem auto; 
+    }
+}
+
+@media (max-width: 576px) {
+    .card{
+        margin: 1rem auto;
+    }
+}
+
+@media (min-width: 576px){
+    .card-group>.card{
+        flex: none;
+    }
+}

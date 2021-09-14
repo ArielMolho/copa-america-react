@@ -1,0 +1,36 @@
+.group-title{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: var(--fontOne);
+}
+
+.card-group{
+    justify-content: center;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .group-title{
+        font-size: 1.5rem;
+    }
+    .card-group{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-group>.card+.card{
+    margin-left: auto !important;
+    border-left: auto !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-group{
+        max-width: 20vw;
+    }
+}

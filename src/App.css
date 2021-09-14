@@ -1,0 +1,27 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root{
+  --fontOne: 'Sedgwick Ave Display', cursive;
+  --fontTwo: 'Varela Round', sans-serif;
+  --colorOne: yellow;
+  --colorTwo: red;
+}
+
+.background-pitch{
+  background-image: url(./backgroundpitch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-size: 100% 100%;*/
+}
+
+/*@media (max-width: 768px) {
+  .background-pitch{
+      background-size: cover;
+  }
+}*/

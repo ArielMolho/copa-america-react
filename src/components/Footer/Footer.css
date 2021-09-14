@@ -1,0 +1,36 @@
+footer{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flex-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.footer-container-logo, .footer-container-icons{
+    align-self: center;
+}
+
+.footer-logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.social-media-icons-container {
+    display:flex;
+    justify-content: center;
+}
+
+.icons {
+    max-width:80%;
+    height:auto; 
+    
+}
+
+.nolist {
+    margin: 5px;
+    list-style-type: none;
+    display: inline;
+}    
